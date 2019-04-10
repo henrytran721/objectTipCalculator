@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Object Tip Calculator</title>
+    <link rel="stylesheet" href="objTipCalc.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class = "tcHeader">Tip Calculator</h1>
+      <div class="tipCalculator">
+        <div class="billAmount">
+          <label for = "billTotal">
+            <h2 class = "billTotal">Bill Total</h2>
+          <input type="text" class = "bill" name="billTotal" placeholder="Bill Total">
+        </label>
+        </div>
+      <div class = "serviceQuality">
+        <label for = "serviceQuality">
+          <h2 class = "serviceText">Service of Quality</h2>
+          <select class = "sQOptions">
+            <option value = "0.18">Excellent - 18%</option>
+            <option value = "0.15">Alright - 15%</option>
+            <option value = "0.10">Okay - 10%</option>
+            <option value = "0.05">Needs Improvement - 5%</option>
+          </select>
+        </label>
+      </div>
+      <div class="numOfPeople">
+        <label for="numOfPeople">
+          <h2>Number of People</h2>
+          <input class = "numOfPpl" type="text" name="numOfPeople" placeholder="Number of People">
+        </label>
+      </div>
+      <div class="calculate">
+        <button class = "calculateBtn" type="button" name="calculate">Calculate</button>
+      </div>
+      <div class="result">
+      </div>
+      <div class="resultTwo">
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript" src = "objTipCalc.js"></script>
+</html>
